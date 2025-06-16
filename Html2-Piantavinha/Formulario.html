@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form action="">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="Nome" />
+        <br /><br />
+        <label for="Endereco">Endereço:</label>
+        <input type="text" name="Endereco" />
+        <br /><br />
+        <label for="Cidade">Cidade:</label>
+        <input type="text" name="Cidade" />
+        <br /><br />
+        <label for="Estado">Estado:</label>
+        <select name="Estado" id="">
+          <option value="Estado">São Paulo</option>
+          <option value="Estado">Espirito Santo</option>
+          <option value="Estado">Rio de Janeiro</option>
+        </select>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="Cargo">Natureza do Cargo <br></label>
+        <input type="radio" name="Cargo" value="Gerência" /> Gerência
+        <input type="radio" name="Cargo" value="Financeiro" /> Financeiro
+        <input type="radio" name="Cargo" value="Recepção" /> Recepção
+        <input type="radio" name="Cargo" value="Administrativo" /> Administrativo
+        <input type="radio" name="Cargo" value="Juridico" /> Juridico
+        <br> <br>
+        <label for="Area">Área de interesse <br></label>
+        <input type="checkbox" name="Area"> Computação
+        <input type="checkbox" name="Area"> Biologia
+        <input type="checkbox" name="Area"> Meio Ambiente
+        <input type="checkbox" name="Area"> Engenharia
+        <input type="checkbox" name="Area"> História
+        <br><br>
+        <label for="Mini">Mini-Curriculo</label>
+        <textarea name="Mini" id=""></textarea>
+      </fieldset>
+      <br>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </form>
+  </body>
+</html>

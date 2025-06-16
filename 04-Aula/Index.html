@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulairiro</h1>
+    <form action="" method="">
+        <fieldset>
+            <legend>Dados do Formulairiro</legend>
+      <label for="input">Nome completo</label>
+      <input
+        type="text"
+        id="nome"
+        placeholder="Digite seu nome..."
+        maxlength="100"
+      />
+      <br />
+      <br />
+      <label for="">Email</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Digite seu email..."
+        id="email"
+      />
+      <br />
+      <br />
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" placeholder="Senha" />
+      <br />
+      <br />
+      <input type="submit" value="Login" />
+      </fieldset>
+    </form>
+    <br><br>
+    <label for="data"> Data de nascimento:</label>
+    <input type="datetime-local" id="data">
+    <br><br>
+    <label for="telefone">telefone</label>
+    <input type="tel" id="telefone" name="telefone" data-mask="(00) 00000-0000" data-mask-selectionfocus="true">
+  </body>
+</html>
