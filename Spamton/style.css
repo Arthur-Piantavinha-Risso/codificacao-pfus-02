@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: white;
+}
+#Container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#Spamton {
+  margin-left: 40%;
+  margin-top: 15%;
+  width: 350px;
+  height: 400px;
+}
+#ShopBackground {
+  background-image: url(./xn4s3mrej6l81-ezgif.com-video-to-gif-converter.gif);
+  height: 700px;
+  width: auto;
+  background-size: cover;
+}
+#Textbox{
+    background-image: url(./deltarune\ textbox.jpg);
+    background-size: cover;
+    height: 425px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
